@@ -57,6 +57,9 @@ const StyledLink = styled.a`
   &:hover {
     background-color: #22222e;
   }
+  @media (max-width: 400px) {
+    margin-left: 0;
+  }
 `
 
 export default NavigationBar
