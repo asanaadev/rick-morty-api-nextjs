@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
   html,
   body {
     font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden;
   }
   a {
     color: inherit;
